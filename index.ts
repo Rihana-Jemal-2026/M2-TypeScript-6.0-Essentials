@@ -1,5 +1,5 @@
 import { Temporal } from "@js-temporal/polyfill";
-import { Student } from "./models/student.model";
+import { Student } from "./models/student.model.js";
 
 const s: Student = {
   id: "STU-001",
